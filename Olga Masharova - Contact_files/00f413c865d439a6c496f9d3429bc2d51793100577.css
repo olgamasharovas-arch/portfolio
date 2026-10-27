@@ -2306,7 +2306,7 @@ nav .link-title {
 }
 
 .back-to-top-fixed {
-  background: rgba(1, 43, 85, 0.1);
+  background: rgba(139, 169, 161, 0.1);
   border-radius: 5px;
   display: block;
   bottom: 40px;
@@ -2323,7 +2323,7 @@ nav .link-title {
 }
 
 .icon-back-to-top {
-  fill: #012B55;
+  fill: #C2DCD6;
   height: 20px;
   opacity: 1;
   position: absolute;
