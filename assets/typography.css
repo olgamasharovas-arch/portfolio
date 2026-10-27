@@ -2,3 +2,24 @@
 html, body, body *, body *::before, body *::after {
   font-family: "Arimo", Arial, sans-serif !important;
 }
+
+/* Gold and green interaction states, shared by every page. */
+body a.back-to-top-fixed:hover,
+body a.back-to-top-fixed:focus-visible,
+body .social a[href*="linkedin.com"]:hover,
+body .social a[href*="linkedin.com"]:focus-visible {
+  background: #C3B967 !important;
+  color: #214139 !important;
+}
+body a.back-to-top-fixed:hover svg,
+body a.back-to-top-fixed:focus-visible svg,
+body .social a[href*="linkedin.com"]:hover svg,
+body .social a[href*="linkedin.com"]:focus-visible svg {
+  fill: #214139 !important;
+  opacity: 1 !important;
+}
+body a.back-to-top-fixed:focus-visible,
+body .social a[href*="linkedin.com"]:focus-visible {
+  outline: 2px solid #C3B967 !important;
+  outline-offset: 3px;
+}
