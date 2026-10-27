@@ -1,0 +1,30 @@
+.contact-success-dialog {
+  box-sizing: border-box;
+  width: min(640px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  padding: 72px 48px 64px;
+  border: 1px solid #EFEBEC;
+  border-radius: 28px;
+  background: #fff;
+  color: #214139;
+  text-align: center;
+  font-family: vcsm, "Helvetica Neue", sans-serif;
+  overflow: auto;
+}
+.contact-success-dialog::backdrop { background: rgb(33 65 57 / 40%); }
+.contact-success-dialog h2 { margin: 0 0 12px; color: inherit; font: inherit; font-size: 28px; line-height: 1.25; font-weight: 600; }
+.contact-success-dialog p { margin: 0; color: inherit; font: inherit; font-size: 24px; line-height: 1.4; }
+.contact-success-dialog .contact-success-close {
+  position: absolute; top: 16px; right: 16px;
+  display: grid; place-items: center; width: 44px; height: 44px;
+  padding: 10px; border: 0; border-radius: 50%;
+  background: transparent; color: #214139; cursor: pointer;
+}
+.contact-success-close svg { display: block; width: 24px; height: 24px; }
+.contact-success-close:focus-visible { outline: 2px solid #214139; outline-offset: 2px; }
+@media (max-width: 480px) {
+  .contact-success-dialog { padding: 68px 24px 48px; }
+  .contact-success-dialog h2 { font-size: 26px; }
+  .contact-success-dialog p { font-size: 20px; }
+}
