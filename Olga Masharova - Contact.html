@@ -125,23 +125,24 @@
               
               
               <div class="project-module module form project-module-form js-project-module-form js-js-project-module" data-id="m674a5778ad2da5f531dd7f145b068b749171d29fac0fa4b03ea37">
-  <form class="contact-form e2e-site-contact-form">
+  <form id="portfolio-contact-form" class="contact-form" action="https://formspree.io/f/mrppqodv" method="POST">
      
       <div class="form-input">
             <label for="field1">Name *</label>
-            <input type="text" name="field1" data-validate="required,Generic" placeholder="Your Name..." required="">
+            <input type="text" id="field1" name="name" autocomplete="name" data-validate="required,Generic" placeholder="Your Name..." required="">
       </div>
      
       <div class="form-input">
             <label for="email">Email Address *</label>
-            <input type="text" name="email" data-validate="required,Email,required" placeholder="Your Email Address..." required="">
+            <input type="email" id="email" name="email" autocomplete="email" data-validate="required,Email,required" placeholder="Your Email Address..." required="">
       </div>
      
       <div class="form-input">
             <label for="field2">Message *</label>
-            <textarea name="field2" data-validate="required,Generic" placeholder="Your Message..." required=""></textarea>
+            <textarea id="field2" name="message" data-validate="required,Generic" placeholder="Your Message..." required=""></textarea>
       </div>
-                                <div class="js-submit submit-button" data-id="m674a5778ad2da5f531dd7f145b068b749171d29fac0fa4b03ea37"><span class="js-submit-text submit-text preserve-whitespace">Submit</span></div>
+                                <button type="submit" class="submit-button"><span class="submit-text preserve-whitespace">Submit</span></button>
+<p id="contact-status" role="status" aria-live="polite"></p>
   </form>
   <div class="contact-form-sent">
     Thank you!
@@ -239,4 +240,5 @@
   </div>
 
 <script src="/portfolio/assets/navigation.js"></script>
+<script src="/portfolio/assets/contact.js"></script>
 </body></html>
