@@ -9,7 +9,7 @@
   background: #fff;
   color: #214139;
   text-align: center;
-  font-family: vcsm, "Helvetica Neue", sans-serif;
+  font-family: "Arimo", Arial, sans-serif;
   overflow: auto;
 }
 .contact-success-dialog::backdrop { background: rgb(33 65 57 / 40%); }
